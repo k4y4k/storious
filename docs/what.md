@@ -3,7 +3,7 @@
 - ["What?" or Project Goals](#what-or-project-goals)
   - [Primary Goal](#primary-goal)
   - [Secondary Goals](#secondary-goals)
-  - [Also Considering, But Not That Important, Really[ DESTINATION | MASK ]](#also-considering-but-not-that-important-really-destination--mask-)
+  - [Also Considering, But Not That Important, Really](#also-considering-but-not-that-important-really)
 - [About The Very Special Markup](#about-the-very-special-markup)
   - [Making Marks](#making-marks)
   - [Taking Names](#taking-names)
@@ -46,7 +46,7 @@ In a physical form (i.e. the author prints out the generated PDF), these page nu
 - PDF customisation (probably through LaTeX templates passed to pandoc)
 - Syntax definitions?
 
-## Also Considering, But Not That Important, Really[ DESTINATION | MASK ]
+## Also Considering, But Not That Important, Really
 
 - Export to JS / web
 - Inclusion of images
