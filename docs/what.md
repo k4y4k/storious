@@ -85,7 +85,8 @@ think:[["Well, that was nice."]]
 This chunk would produce the following page:
 
 ```
-This is the chunk text. You know, the part you actually read when you do a read-through of a Choose Your Own Adventure book.
+This is the chunk text. You know, the part you actually read when you do a
+read-through of a Choose Your Own Adventure book.
 
 Yep! This is a heading.
 
@@ -98,7 +99,6 @@ You can do whatever you'd like in here, really.
 preformatted text
 
 If you think "Well, that was nice.", turn to page 2.
-
 ```
 
 ## Taking Names
