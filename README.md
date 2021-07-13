@@ -6,8 +6,7 @@ You know the problem with [interactive fiction](https://en.wikipedia.orge/wiki/I
 
 I mean that literally. Sometimes I get an itch for a _proper_ Choose Your Own Adventure experience. You know the kind, the ones that say
 
-> If you dodge to the left, turn to page 112.
-> If you dodge to the right, turn to page 150.
+> If you dodge to the left, turn to page 112. If you dodge to the right, turn to page 150.
 
 every so often.
 
@@ -18,3 +17,7 @@ Plus, writing a piece of interactive fiction is a solved issue. They have fancy 
 Meanwhile, for those of us who want to go and write a piece of uninteractive interactive fiction, we're bereft of tools: the best we can do is use anchor links in Markdown and do a lot of rereading to hope everything makes sense. Which, if you only want a few endings, or your story isn't that involved, is probably fine.
 
 Anyway. This is my take on "what if you could export inform/ink/twine/etc to PDF as well as web?"
+
+---
+
+For a longer / neater (?) / more formatted brain dump, see [What?](./docs/what.md)
