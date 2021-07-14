@@ -18,7 +18,6 @@
   - [Don't Allow Access to Choices Based on Information We Can't Get To](#dont-allow-access-to-choices-based-on-information-we-cant-get-to)
   - [Visualising the Story Graph](#visualising-the-story-graph)
   - [Generating a Character Sheet](#generating-a-character-sheet)
-  - [Cross File Linking](#cross-file-linking)
   - [Endless Loops](#endless-loops)
   - [PDF Customisation](#pdf-customisation)
     - [Image Placement](#image-placement)
@@ -357,10 +356,6 @@ There could be a way to denote values that need to be tracked, like "mystical ar
 Storious could generate a template character sheet that a reader could use.
 
 It could also be a tiny website, but that's a looooong way off just yet.
-
-## Cross File Linking
-
-This requires more research and will probably be changed once I work out the syntax a little more, but there's no reason Storious can't `cat` all the input files together. Probably means that files need to be explicitly included…
 
 ## Endless Loops
 
