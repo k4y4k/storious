@@ -1,0 +1,27 @@
+{
+  "extends": ["config:base"],
+  "dependencyDashboard": true,
+  "assignees": ["k4y4k"],
+  "baseBranches": ["main"],
+  "dependencyDashboardAutoclose": true,
+  "dependencyDashboardFooter": "📚 Who needs trees anyway? 📚",
+  "labels": ["dependencies"],
+  "prHourlyLimit": 3,
+  "rebaseLabel": "please-rebase",
+  "commitBodyTable": true,
+  "commitMessagePrefix": "⬆️",
+  "commitMessageAction": "Update",
+  "major": { "automerge": false },
+  "packageRules": [
+    {
+      "matchUpdateTypes": "pin",
+      "commitMessagePrefix": "📌",
+      "commitMessageAction": "Pin"
+    },
+    {
+      "matchUpdateTypes": "rollback",
+      "commitMessagePrefix": "⬇️",
+      "commitMessageAction": "Downgrade"
+    }
+  ]
+}
