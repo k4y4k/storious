@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: default
+name: stable
 type: docker
 
 trigger:
@@ -10,9 +10,27 @@ trigger:
       - github-pages
 
 steps:
-  - name: test
+  - name: build, test
     image: rust
     commands:
       - rustup self update && rustup toolchain uninstall stable && rustup toolchain install stable
+      - cargo build --verbose --all
+      - cargo test --verbose --all
+
+---
+kind: pipeline
+name: nightly
+type: docker
+
+trigger:
+  branch:
+    exclude:
+      - gh-pages
+      - github-pages
+
+steps:
+  - name: build, test
+    image: rustlang/rust:nightly-slim
+    commands:
       - cargo build --verbose --all
       - cargo test --verbose --all
