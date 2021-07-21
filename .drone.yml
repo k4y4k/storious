@@ -13,5 +13,6 @@ steps:
   - name: test
     image: rust:1.30
     commands:
+      - rustup self update && rustup toolchain uninstall stable && rustup toolchain install stable
       - cargo build --verbose --all
       - cargo test --verbose --all
